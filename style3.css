@@ -1,0 +1,66 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.box{
+    background-color: lightgray;
+    width: 500px;
+    height: 600px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+
+}
+
+h1,p{
+    color: white;
+}
+
+input{
+    height: 30px;
+    width: 80%;
+    border: 1px solid black;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    
+}
+
+::placeholder{
+    color: black;
+}
+
+.naam{
+    display: flex;
+    flex-direction: row;
+    width: 86%;
+}
+
+.checkbox{
+    color: black;
+}
+
+a{
+    color: blue;
+}
+
+input[type="checkbox"]{
+    height: 18px;
+    width: 18px;
+}
+
+button{
+    background-color: blue;
+    border: 1px solid black;
+    color: white;
+    width: 80%;
+    height: 7%;
+    margin-top: 20px;
+    font-size: 20px;
+}
